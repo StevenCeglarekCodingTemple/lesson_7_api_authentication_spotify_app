@@ -73,7 +73,6 @@ class MyPod:
         for song in self.songs:
             print(song['title'] + " - " + song['artist'])
 
-
 def main():
     my_pod = MyPod("Steven's MyPod")
 
@@ -85,7 +84,6 @@ def main():
               3. Quit
               """)
         
-    
         choice = input("\nPlease make a selection: ")
         if choice == '1':
             song_choice = input("Please provide the title of a song you want to search: ")
